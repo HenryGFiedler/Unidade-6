@@ -20,20 +20,7 @@ public class Uni6Exe10 {
             System.out.println("8 - Sair do sistema");
             System.out.println("----------------------");
 
-            int opcao = 0;
-            while (true) {
-                if (s.hasNextInt()) {
-                    opcao = s.nextInt();
-                    if (opcao > 8 || opcao < 1) {
-                        System.out.println("Opção Inválida");
-
-                    } else {
-                        break;
-                    }
-                } else {
-                    System.out.println("Charactere inválido");
-                }
-            }
+            int opcao = verificacao(s);
 
             switch (opcao) {
                 case 1:
@@ -85,7 +72,8 @@ public class Uni6Exe10 {
                 opcao = s.nextInt();
                 break;
             } else {
-                System.out.println("Charactere inválido");
+                System.out.println("Caractere inválido");
+                s.nextLine();
             }
         }
         return opcao;
