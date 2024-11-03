@@ -71,6 +71,7 @@ public class Uni6Exe08 {
         return unicos;
     }
 
+    /** Informa a quantidade que existe de cada número único */
     public static int[] quantidadePorUnico(double[] u, double[] v) {
         int[] quantidades = new int[u.length];
 
