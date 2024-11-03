@@ -57,7 +57,7 @@ public class Uni6Exe07 {
         }
     }
 
-    /** Checa se o numerido inserido já existe no vetor */
+    /** Checa se o numero inserido já existe no vetor */
     public static boolean verificacarNumero(int valor, int[] v, int i) {
         boolean check = false;
 
@@ -71,6 +71,7 @@ public class Uni6Exe07 {
         return check;
     }
 
+    /** Ordena o vetor em ordem crescente */
     public static void ordenarVetor(int[] v) {
         int i = 0;
 
@@ -87,6 +88,7 @@ public class Uni6Exe07 {
         }
     }
 
+    /** Imprime os valores do vetor lado a lado */
     public static void escrever(int[] v) {
         for (int n : v) {
             System.out.print(n + " ");
