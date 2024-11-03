@@ -10,7 +10,7 @@ import java.text.DecimalFormat;
  * escrever os valores atualizados do vetor.
  */
 
-public class Uni6Exe3 {
+public class Uni6Exe03 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("0.00");
