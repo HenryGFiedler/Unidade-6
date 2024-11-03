@@ -40,27 +40,38 @@ public class Uni6Exe10 {
                     incluirValor(s, vetor, counter);
                     counter++;
                     break;
+
                 case 2:
                     pesquisarValor(s, vetor, counter);
                     break;
+
                 case 3:
                     alterarValor(s, vetor, counter);
                     break;
+
                 case 4:
                     excluirValor(s, vetor, counter);
                     counter--;
                     break;
+
                 case 5:
                     mostrarValores(vetor, counter);
                     break;
+
                 case 6:
                     ordenarValores(vetor, counter);
                     break;
+
                 case 7:
                     inverterValores(vetor, counter);
                     break;
+
                 case 8:
                     ligado = false;
+                    break;
+
+                default:
+                    System.out.println("Opção inválida");
                     break;
             }
         } while (ligado);
