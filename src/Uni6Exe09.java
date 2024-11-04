@@ -21,7 +21,7 @@ public class Uni6Exe09 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        int[][] nota = new int[4][3];
+        int[][] nota = new int[30][3];
         getNotas(s, nota);
 
         double media = media(nota);
